@@ -10,9 +10,11 @@ a{
 
 
 .blurred-wrapper{
-    height: 105vh;
+    height: 99vh;
     background: url("./images/wallpaper.jpg") center/cover;
     position: relative;
+    overflow: auto;
+    overflow-x: hidden;
     z-index: 1;
     animation: hue 10s infinite alternate;
 }

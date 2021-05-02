@@ -77,15 +77,15 @@ const Header = () => {
         style={{ height: "700px" }}
         className="row m-2 align-items-center"
       >
-        <div class="col-md-5 offset-md-1">
-          <div className="mt-5">
+        <div class="col-md-5 offset-md-1 ">
+          <div className="mt-2">
             <Typist cursor={{ show: false }}>
-              <h1 style={{ color: "#ffff", fontSize: "60px" }}>
+              <h4 style={{ color: "#ffff", fontSize: "60px" }}>
                 Hi,
                 <br /> I am Omar Faruk
                 <br />
                 Your Indeed MERN web Developer...
-              </h1>
+              </h4>
             </Typist>
 
             <div style={{ transitionDelay: "26s" }} className="">
