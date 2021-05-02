@@ -10,11 +10,11 @@ a{
 
 
 .blurred-wrapper{
-    height: 100vh;
+    height: 80vh;
     background: url("./images/wallpaper.jpg") center/cover;
     position: relative;
     z-index: 1;
-    overflow: hidden;
+
     animation: hue 10s infinite alternate;
 }
 
@@ -45,7 +45,7 @@ a{
 
 
 .logo{
-    font-size: 2.6rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;

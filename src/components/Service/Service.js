@@ -30,9 +30,9 @@ const ServiceData =[
 
 const Service = () => {
   return (
-    <section className="container">
+    <section className="container container-sm">
       <div className="row">
-        <div className="mt-5 text-white ">
+        <div className="text-white" style={{marginTop: '120px'}}>
             <h3> My <span style={{ color: "#FC0D7A" }}>Services:</span></h3>
             <hr/>
         </div>

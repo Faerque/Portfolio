@@ -19,7 +19,7 @@ const Header = () => {
       <header class="main-header">
         <nav class="navbar navbar-expand-lg m-2 navbar-style navbar-light">
           <div class="container-fluid">
-            <a href="index.html" class="logo">
+            <a href="index.html" className="logo">
               OMAR FARUK<span>.</span>
             </a>
             <button
@@ -41,7 +41,7 @@ const Header = () => {
                 <li class="nav-item">
                   <Link
                     to="/"
-                    style={{ color: "white" }}
+                    style={{color: "white" }}
                     class="nav-link active"
                     aria-current="page"
                   >
