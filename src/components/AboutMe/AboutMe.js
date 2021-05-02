@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./AboutMe.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
 import Fade from 'react-reveal/Fade';
 
+
 const AboutMe = () => {
+  useEffect(() => {
+    document.title = "About Me";
+  }, []);
+  
   return (
       <main className="mt-3 container">   
         <div className="row">

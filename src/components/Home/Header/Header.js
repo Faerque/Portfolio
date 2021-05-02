@@ -108,7 +108,7 @@ const Header = () => {
         </div>
         <div className="offset-md-1 ">
           <Typist cursor={{ show: false }}>
-            <Typist.Delay ms={6000} />
+            <Typist.Delay ms={4400} />
             <div>
               <h3 style={{ color: "white" }}>Find me here:</h3>
             </div>
