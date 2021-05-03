@@ -1,5 +1,9 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { faGithub
+} from "@fortawesome/free-brands-svg-icons";
 
 const ProjectDetails = ({ project }) => {
   console.log(project);
@@ -13,23 +17,15 @@ const ProjectDetails = ({ project }) => {
           <p class="card-text">{project.detail}</p>
         </div>
       </a>
-      <div class="card-body ">
-        <a href={project.client_site}>
-          <button
-            className="btn btn-outline-primary m-2"
-            style={{ maxWidth: "90px" }}
-          >
-            GitHub Client
-          </button>
+      <div className="mb-1">
+        <div className="mx-auto">
+        <a href={project.client_site} className="m-2" >
+            <small><FontAwesomeIcon icon={faGithub} size="2x"/></small>
         </a>
         <a href={project.server_site}>
-          <button
-            className="btn btn-outline-primary"
-            style={{ maxWidth: "90px" }}
-          >
-            GitHub Server
-          </button>
+            <small><FontAwesomeIcon icon={faLink} size="2x"/></small>    
         </a>
+        </div>
       </div>
     </div>
     </Fade>
