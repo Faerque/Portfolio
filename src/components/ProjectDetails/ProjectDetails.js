@@ -17,6 +17,7 @@ const ProjectDetails = ({ project }) => {
           <p class="card-text">{project.detail}</p>
         </div>
       </a>
+
       <div className="mb-1">
         <div className="mx-auto">
         <a href={project.client_site} className="m-2" >
