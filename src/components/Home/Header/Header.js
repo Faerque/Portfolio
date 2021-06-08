@@ -92,7 +92,7 @@ const Header = () => {
               {" "}
               <Typist cursor={{ show: false }}>
                 <a
-                  href="https://drive.google.com/file/d/1qOiJExuDbghQBqXrsJr0VbIRV3ZINddJ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1pZTv3kYRh8OzjVU1S2bzbK-_0gnn-SBX/view?usp=sharing"
                   target="_blank"
                 >
                   <Fade bottom>
@@ -130,7 +130,7 @@ const Header = () => {
                     className="mx-2"
                   />{" "}
                 </a>
-                <a href="https://twitter.com/Omafaer" target="_blank">
+                <a href="https://twitter.com/Faeruqee" target="_blank">
                   {" "}
                   <FontAwesomeIcon
                     icon={faTwitter}

@@ -17,15 +17,11 @@ const AboutMe = () => {
         <Fade bottom cascade>
           <div className="col-md-6 p-2">
             <div className="card shadow text-white card-bg p-3">
-              <h2 className=""> Muhammad Omar Faruk</h2>
+              <h1 className=""> Muhammad Omar Faruk</h1>
               <p>
-                <small>
-                  <i>
-                    A newbie MERN web developer desperately seeking for an
-                    opportunity...
-                  </i>
-                  
-                </small>
+                  <p style={{color: 'blue', width: '253px', padding:'2px', borderRadius: '2px soft'}} className="card" >
+                    Newbie Software Engineer || MERN  
+                  </p>   
               </p>
               <h3> Education: </h3>
               <hr />
@@ -77,7 +73,7 @@ const AboutMe = () => {
                   </small>
                 </p>
               </li>
-              <a href="https://drive.google.com/file/d/1-s35WsLpijJzYjljRPYwwVOSWW0Ij3AT/view?usp=sharing" target="_blank">
+              <a href="https://drive.google.com/file/d/1pZTv3kYRh8OzjVU1S2bzbK-_0gnn-SBX/view?usp=sharing" target="_blank">
            <button className="btn btn-outline-primary"><FontAwesomeIcon icon={faFileDownload} /> Download Resume</button> </a> 
             </div>
             </div>
